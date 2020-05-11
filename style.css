@@ -1,6 +1,9 @@
 body{
-	background-color: #FFFFFF;
-	background-image: url("./images/bg.png");
+	background-image: url("./images/bg.jpg");
+	background-repeat: no-repeat;
+  background-size: 1920px;
+	background-attachment: fixed;
+  background-position: 0px -1200px;
 	text-align: center;
   padding:20px;
 }
@@ -68,6 +71,18 @@ h2{
 	line-height: 1;
 }
 
+h3{
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	font-weight: normal;
+	color: white;
+	letter-spacing: 3pt;
+	word-spacing: 6pt;
+	font-size: 20px;
+	text-align:center;
+	font-family: helvetica, sans-serif;
+	line-height: 1;
+}
+
 div.polaroid {
   width: 810px;
 	height: 320px;
@@ -75,6 +90,7 @@ div.polaroid {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	margin: auto;
   padding: 10px;
+	border-radius: 3px;
 }
 
 img {
@@ -148,6 +164,7 @@ dd{
 
 header{
 	padding: 40px;
+	border-radius: 3px;
 	text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	font-weight: 200;
@@ -175,6 +192,34 @@ article{
 		display: block;
 }
 
+#ontheInternet{
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+		box-shadow:  0 3px 10px 0 rgba(0, 0, 0, 0.19);
+		border-radius: 3px;
+		font-weight: normal;
+		margin-left: auto;
+		margin-right: auto;
+		letter-spacing: 2pt;
+		word-spacing: 4pt;
+		font-size: 12px;
+		background-color: white;
+		text-align:center;
+		font-family: helvetica, sans-serif;
+		line-height: 1.5;
+    text-align: center;
+    width: 300px;
+    position: relative;
+    top: 10px;
+		padding: 20px;
+    left: 0;
+		z-index: 0;
+		display: block;
+}
+
+#bottomPadding{
+	height: 50px;
+}
+
 footer{
     text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -190,7 +235,22 @@ footer{
 		line-height: 1.5;
     text-align: center;
     width: 100%;
-    position: absolute;
     bottom: 0;
     left: 0;
+		height:30px;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+
+
+}
+
+.footer_contents {
+
+    height:30px;
+    width: 1000px;
+    margin:auto;
+
 }
