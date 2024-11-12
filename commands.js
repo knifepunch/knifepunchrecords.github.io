@@ -6,13 +6,13 @@ var instagram = "https://www.instagram.com/knifepunchrecords/";
 var github = "https://github.com/knifepunchrecords";
 var email = 'mailto:knifepunchrecords@gmail.com';
 
-var whois = [
+var whois = "
   "<br>",
   "hi! i am echo, and this is knifepunch!",
   "we are a group of diy fans and creators that like helping each other out!",
   "enlist in the resistance today!",
   "<br>"
-];
+";
 
 var whoami = [
   "<br>",
