@@ -6,21 +6,21 @@ var instagram = "https://www.instagram.com/knifepunchrecords/";
 var github = "https://github.com/knifepunchrecords";
 var email = 'mailto:knifepunchrecords@gmail.com';
 
-whois = [
+var whois = [
   "<br>",
-  "hi! we are knife international!",
+  "hi! i am echo, and this is knifepunch!",
   "we are a group of diy fans and creators that like helping each other out!",
   "enlist in the resistance today!",
   "<br>"
 ];
 
-whoami = [
+var whoami = [
   "<br>",
   "The paradox of “Who am I?” is: we never know, but, we constantly find out.",
   "<br>"
 ];
 
-social = [
+var social = [
   "<br>",
   'youtube        <a href="' + youtube + '" target="_blank"> youtube.com/@knifepunch ' + "</a>",
   'twitter        <a href="' + twitter + '" target="_blank">twitter.com/knifepunch/' + '</a>',
@@ -29,19 +29,19 @@ social = [
   "<br>"
 ];
 
-secret = [
+var secret = [
   "<br>",
   '<span class="command">sudo</span>           Only use if you\'re admin',
   "<br>"
 ];
 
-projects = [
+var projects = [
   "<br>",
   "Still curating... most projects are offline, on GitHub, or confidential.",
   "<br>"
 ];
 
-help = [
+var help = [
   "<br>",
   '<span class="command">whois</span>          Who is KNIFE International?',
   '<span class="command">whoami</span>         Who are you?',
